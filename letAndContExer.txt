@@ -1,0 +1,17 @@
+const PI=3.14
+PI = 42;  //Error
+
+
+- What is the difference between var and let?
+The main difference between var and let is that var is used to declare a variable with global scope, while let is used to declare a variable with local scope. Variables declared with var can be re-declared and updated, while variables declared with let cannot be re-declared. Additionally, variables declared with let are not accessible outside the scope in which they were declared.
+
+- What is the difference between var and const?
+The main difference between var and const is that variables declared with var can be reassigned, while constants declared with const cannot. Variables declared with var are also function scoped, meaning they are accessible within the function in which they are declared, while constants declared with const are block scoped, meaning they are accessible within the block in which they are declared. Additionally, constants must be initialized when declared.
+
+- What is the difference between let and const?
+The main difference between let and const is that variables declared using let can be reassigned, while variables declared using const cannot be reassigned. This means that once a value has been assigned to a variable declared with const, it cannot be changed. Variables declared with let can be updated and reassigned as many times as necessary.
+Additionally, variables declared with const must be initialized when they are created. Variables declared with let do not need to be initialized when they are created, although it is recommended to do so.
+ 
+- What is hoisting?
+Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their scope before execution. This means that no matter where functions and variables are declared, they are moved to the top of their scope regardless of whether their scope is global or local.
+In other words, hoisting allows you to use a variable or function before it is declared in the code. This can be useful when dealing with complex code, as it can help to simplify the order of operations.
